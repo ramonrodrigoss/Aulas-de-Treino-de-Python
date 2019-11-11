@@ -1,0 +1,7 @@
+n1=input('Digite alguma coisa')
+print('Isso que voce digitou é:{}'.format(type(n1)))
+print('Ele tem Espaço?',n1.isspace())
+print('Ele é um Numero?',n1.isnumeric())
+print('Ele é um Alfanumerico:',n1.isalnum())
+print('Ele está minusculo?',n1.islower())
+print ('Ele é um decimal? ',n1.isdecimal())

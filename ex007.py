@@ -1,0 +1,5 @@
+print('Programa para Calcular a média de um aluno')
+n1=float(input('Digite o valor da primeira nota \n '))
+n2=float(input('Digite o valor da segunda nota \n '))
+media=float((n1+n2)/2)
+print('A média da {:.1f} e {:.1f}, é {:.1f}'.format(n1,n2,media))

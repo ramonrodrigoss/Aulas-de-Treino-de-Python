@@ -1,0 +1,5 @@
+print('Sistema de Alugel de Carro')
+km=float(input('Quantos KM você rodou com o carro?\n '))
+dia=int(input('Quantos dias você ficou?\n'))
+paga=(dia*60)+(km*0.15)
+print('Você terá que pagar R${:.2f} pelo aluguel do carro'.format(paga))
